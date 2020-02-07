@@ -1,13 +1,13 @@
 import React from "react";
-import Card from "./components/card/Card";
+import User from "./components/users/User";
+import Post from "./components/posts/Post";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Card>
-        <h3>Custom Hooks</h3>
-      </Card>
+      <User userId={5} />
+      <Post postId={15} />
     </div>
   );
 }
